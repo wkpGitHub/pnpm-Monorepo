@@ -1,0 +1,16 @@
+{
+  "name": "pnpm-Monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C docs dev",
+    "serve": "pnpm -C play serve"
+  },
+  "dependencies": {
+    "@kp/d3": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
